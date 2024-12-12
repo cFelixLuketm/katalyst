@@ -1,0 +1,19 @@
+name: Testimonial Half
+
+icon: chat
+
+fields:
+  paragraphone:
+    type: textarea
+    placeholder: Paragraph One goes here
+    width: 1/1
+  toptitleblackright:
+    label: Top Title Black right
+    type: text
+    placeholder: Title One goes here
+    width: 1/1
+  bottomtitlegreyright:
+    label: Bottom Title Grey right
+    type: text
+    placeholder: Title One goes here
+    width: 1/1

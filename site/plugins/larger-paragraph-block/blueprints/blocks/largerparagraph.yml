@@ -1,0 +1,15 @@
+name: Larger Paragraph
+
+icon: chat
+
+fields:
+  title:
+    label: Paragraph One Title
+    type: text
+    placeholder: Title One goes here
+  paragraphone:
+    type: textarea
+    placeholder: Paragraph One goes here
+  paragraphtwo:
+    type: textarea
+    placeholder: Paragraph Two goes here

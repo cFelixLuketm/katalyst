@@ -1,0 +1,13 @@
+.k-aspect-wrapper-duo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.paragraph-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem 1rem;
+}
+h1 {
+  font-size: 35px;
+}

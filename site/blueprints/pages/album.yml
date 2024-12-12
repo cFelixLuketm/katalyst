@@ -1,0 +1,181 @@
+
+title: Project
+
+icon: 🖼
+
+status:
+  draft: true
+  listed: true
+
+columns:
+  - width: 1/3
+    fields:
+      coverone:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        uploads:
+          template: 
+          - image
+          help: make sure cover one & two are of the same dimensions
+      video:
+        label: Video
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        uploads:
+          template:
+          - video
+      covertwo:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        uploads:
+          template: 
+          - image
+      tags:
+        label: Tags
+        type: tags
+        width: 1/2
+      dataname:
+        label: Filter Name
+        type: text
+        width: 1/4
+      subheadline:
+        label: Sub Heading
+        type: text
+        width: 1/4
+      headline:
+        label: Headline line 1
+        type: text
+        placeholder: "{{ page.title }}"
+        help: Leave empty to use the title as headline
+      headlinetwo:
+        label: Headline line 2
+        type: text
+        placeholder: "{{ page.title }}"
+        help: Leave empty to use the title as headline
+      initaltitleone:
+        type: text
+        label: List One Title
+      initaltitleoneone:
+        type: text
+        width: 1/2
+        label: One
+      initaltitleonetwo:
+        type: text
+        label: Two
+      initaltitleonethree:
+        type: text
+        label: Three
+      initaltitleonefour:
+        type: text
+        label: Four
+      initaltitleonefive:
+        type: text
+        label: Five
+      initaltitleonesix:
+        type: text
+        label: Six
+      initaltitletwo:
+        type: text
+        label: List Two Title
+      initaltitletwoone:
+        type: text
+        width: 1/2
+        label: One
+      initaltitletwotwo:
+        type: text
+        label: Two
+      initaltitletwothree:
+        type: text
+        label: Three
+      initaltitletwofour:
+        type: text
+        label: Four
+      initaltitletwofive:
+        type: text
+        label: Five
+      initaltitletwosix:
+        type: text
+        label: Six
+      initaltitlethree:
+        type: text
+        label: List Three Title
+      initaltitlethreeone:
+        type: text
+        width: 1/2
+        label: One
+      initaltitlethreeTwo:
+        type: text
+        label: Two
+      initaltitlethreethree:
+        type: text
+        label: Three
+      initaltitlethreefour:
+        type: text
+        label: Four
+      initaltitlethreefive:
+        type: text
+        label: Five
+      initaltitlethreesix:
+        type: text
+        label: Six
+      # recentworkone:
+      #   type: text
+      #   label: Recent Work Project One
+    
+
+  - width: 2/3
+      label: Content
+      fields:
+        blocks:
+          type: blocks
+          fieldsets:
+            - titleparagraph
+            - paragraph
+            - linetwocolumn
+            - threecolumn
+            - testimonial_2_3
+            - testimonial_half
+            - singleimage
+            - singleimage106
+            - singleimage169
+            - duoimage
+            - two_eight_tweleve_image
+            - two_one_one_image_video
+            - two_eight_tweleve_image_video
+            - alignrightsingleimage
+            - alignleftsingleimage
+            - singlevideo
+            - tweleve_eight_video
+            - sixteen_nine_video
+            - two_one_one_video
+            - two_eight_tweleve_video
+            - two_one_one_video_image
+            - two_eight_tweleve_video_image
+            - alignrightsinglevideo
+            - alignleftsinglevideo
+            - emailprefooter
+      # # The `images` files section shows all images of
+      # # the current page that use the `image` template
+      # images:
+      #   type: files
+      #   layout: cards
+      #   template: image
+      #   info: "{{ file.dimensions }}"
+      #   image:
+      #     ratio: 5/4
+      #     cover: true
+      #   min: 1
+      #   size: small
+

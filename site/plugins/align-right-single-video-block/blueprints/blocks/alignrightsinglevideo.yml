@@ -1,0 +1,30 @@
+name: Align right 10:6 Image
+
+icon: video
+
+fields:
+  video:
+    type: files
+    query: page.images.template('video')
+    uploads:
+      template:
+      - video
+    multiple: false
+    width: 1/2
+    layout: cards
+    size: large
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+      width: 1/1
+  toptitleblack:
+    label: Top Title Black
+    type: text
+    placeholder: Title One goes here
+    width: 1/1
+  bottomtitlegrey:
+    label: Bottom Title Grey
+    type: text
+    placeholder: Title One goes here
+    width: 1/1

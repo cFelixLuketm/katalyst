@@ -1,0 +1,165 @@
+
+// <!-- <h1 data-title="Services" class="title_link about_tab_link" onclick="animateServiceLine()">⮡ Services</h1>
+// <div id="Services" class="tabcontent content">
+//   <section class="tab-section">
+//      <?php snippet('services') ?>
+//      <div class="line" id="serviceLine"></div>
+//   </section>
+// </div> -->
+
+// <!-- <h1 data-title="ApproachProcess" class="title_link about_tab_link" onclick="animateApproachLine()">⮡ Our Approach & Process</h1>
+// <div id="ApproachProcess" class="tabcontent content">
+//   <section class="tab-section">
+//      <?php snippet('approachandprocess') ?>
+//      <div class="line" id="approachLine"></div>
+//   </section>
+// </div> -->
+
+// <!-- <h1 data-title="Clients" class="title_link about_tab_link clientsgap" onclick="deleteGap()">⮡ What Our Clients Say</h1>
+// <div id="Clients" class="tabcontent content">
+//    <?php snippet('clients') ?>
+// </div> -->
+
+ h1[data-title="Clients"] {
+   margin-bottom: var(--quad-space);
+ }
+
+article.ourstudio {
+    border-bottom: 0px solid black;
+}
+
+section#ourstudio {
+  height: 40vh;
+}
+
+.about-header {
+  height: 100vh;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+}
+
+div.content {
+    margin-top: 25vh;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+div.content.selected {
+    border-top: 0.75px solid var(--base-white);
+}
+
+.wrapper_tabcontent {
+   margin-top: 0px;
+   position: relative;
+   opacity: 1;
+   overflow: hidden;
+   transition: all 1s ease;
+   top: 0;
+}
+ 
+.tabcontent {
+    display: none;
+    position: absolute;
+    margin-top: 82.5vh;
+    padding-top: var(--double-space);
+    padding-bottom: var(--quad-space);
+}
+ 
+.tabcontent.active {
+  display: contents;
+}
+
+// section.tab-section {
+//   margin-bottom: var(--double-space);
+// }
+
+.approach {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.approach.active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.ourstudio-title-padding {
+   padding-left: var(--padding);
+   padding-right: var(--padding);
+   padding-top: var(--single-space);
+  //  margin-top: 35vh;
+   margin-top: 5vh;
+}
+
+section#aboutFooterGap {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ourstudio-title-padding {
+     margin-top: 35vh;
+  }
+
+  #aboutLine {
+    margin-top: 35vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  //  section#ourstudio {
+  //    height: 80vh;
+  //  }
+
+  .about-header {
+    height: 100vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: var(--padding);
+  }
+
+  h1[data-title="Services"] {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    // font-size: var(--title-copy-size-mobile);
+  }
+
+  h1[data-title="ApproachProcess"] {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    // font-size: var(--title-copy-size-mobile);
+  }
+
+
+  h1[data-title="Clients"] {
+    padding-bottom: var(--mobile-quad-space);
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    // font-size: var(--title-copy-size-mobile);
+  }
+
+    div.content {
+      margin-top: 30vh;
+    }
+  
+    .tabcontent.active {
+      padding-bottom: var(--mobile-quad-space);
+   }
+  
+   section.tab-section {
+    // padding-bottom: var(--mobile-quad-space);
+    padding-bottom: var(--padding);
+    border-bottom: 0px solid var(--base-white);
+  }
+}

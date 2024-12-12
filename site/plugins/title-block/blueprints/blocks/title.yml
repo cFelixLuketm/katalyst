@@ -1,0 +1,9 @@
+name: Title
+
+icon: chat
+
+fields:
+  title:
+    type: textarea
+    placeholder: Title goes here
+    width: 2/2

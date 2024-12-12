@@ -1,0 +1,20 @@
+name: Approach & Process
+
+columns:
+  - width: 2/2
+    fields:
+      paragraphone:
+        label: Paragraph One
+        width: 1/2 
+        type: textarea
+      approachprocessinitaltitle:
+        label: Paragraph Two
+        type: textarea
+  
+  - width: 2/2
+      sections:
+       pages:
+         label: Approaches
+         type: pages
+         create: default
+         status: listed

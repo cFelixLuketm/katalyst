@@ -1,0 +1,140 @@
+name: Three Column
+
+icon: chat
+
+fields:
+  titleone:
+    label: List One
+    type: text
+    placeholder: Title One goes here
+    width: 1/3
+  titletwo:
+    label: List Two
+    type: text
+    placeholder: Title Two goes here
+    width: 1/3
+  titlethree:
+    label: List Three
+    type: text
+    placeholder: Title Three goes here
+    width: 1/3
+  listoneone:
+    label: One 
+    type: text
+    width: 1/3
+  listtwoone:
+    label: One 
+    type: text
+    width: 1/3
+  listthreeone:
+    label: Three 
+    type: text
+    width: 1/3
+  listonetwo:
+    label: Two 
+    type: text
+    width: 1/3
+  listtwotwo:
+    label: Two 
+    type: text
+    width: 1/3
+  listthreetwo:
+    label: Three 
+    type: text
+    width: 1/3
+  listonethree:
+    label: Three 
+    type: text
+    width: 1/3
+  listtwothree:
+    label: Three 
+    type: text
+    width: 1/3
+  listthreethree:
+    label: Three 
+    type: text
+    width: 1/3
+  listonefour:
+    label: Four 
+    type: text
+    width: 1/3
+  listtwofour:
+    label: Four 
+    type: text
+    width: 1/3
+  listthreefour:
+    label: Four 
+    type: text
+    width: 1/3
+  listonefive:
+    label: Five 
+    type: text
+    width: 1/3
+  listtwofive:
+    label: Five 
+    type: text
+    width: 1/3
+  listthreefive:
+    label: Five 
+    type: text
+    width: 1/3
+  listonesix:
+    label: Six 
+    type: text
+    width: 1/3
+  listtwosix:
+    label: Six 
+    type: text
+    width: 1/3
+  listthreesix:
+    label: Six 
+    type: text
+    width: 1/3
+  listoneseven:
+    label: Seven 
+    type: text
+    width: 1/3
+  listtwoseven:
+    label: Seven 
+    type: text
+    width: 1/3
+  listthreeseven:
+    label: Seven 
+    type: text
+    width: 1/3
+  listoneeight:
+    label: Eight 
+    type: text
+    width: 1/3
+  listtwoeight:
+    label: Eight 
+    type: text
+    width: 1/3
+  listthreeeight:
+    label: Eight 
+    type: text
+    width: 1/3
+  listonenine:
+    label: Nine
+    type: text
+    width: 1/3
+  listtwonine:
+    label: Nine
+    type: text
+    width: 1/3
+  listthreenine:
+    label: Nine
+    type: text
+    width: 1/3
+  listoneten:
+    label: Ten 
+    type: text
+    width: 1/3
+  listtwoten:
+    label: Ten 
+    type: text
+    width: 1/3
+  listthreeten:
+    label: Ten 
+    type: text
+    width: 1/3

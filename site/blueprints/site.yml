@@ -1,0 +1,114 @@
+
+columns:
+  - width: 1/2
+    fields:
+      initalvideo:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        uploads:
+          template:
+          - video
+        help: if you want to change image or video, please delete whole service and start again - only one file type can be uploaded in one go
+      about:
+        type: textarea
+      initallineone:
+        type: text
+        label: Inital Line One
+        width: 1/1
+      initallinetwo:
+        type: text
+        label: Inital Line two
+        width: 1/1
+      wearekatalystparagraphone:
+        type: textarea
+        label: First Paragraph
+        width: 1/1
+      wearekatalystparagraphtwo:
+        type: textarea
+        label: Second Paragraph
+        width: 1/1
+      wearekatalystparagraphtwotitle:
+        type: text
+        label: Dicover More Title One
+        width: 1/2
+      wearekatalystparagraphtwotitletwo:
+        type: text
+        label: Dicover More Title Two
+        width: 1/2
+      footerrightfirsttitle:
+        type: text
+        label: Footer Right First Title
+        width: 1/2
+      footerrightsecondtitle:
+        type: text
+        label: Footer Right Second Title
+        width: 1/2
+      footerrightfirstlinkone:
+        type: text
+        label: One
+        width: 1/2
+      footerrightsecondlinkone:
+        type: text
+        label: One
+        width: 1/2
+      footerrightfirstlinktwo:
+        type: text
+        label: Two
+        width: 1/2
+      footerrightsecondlinkonelink:
+        type: text
+        label: One Link
+        width: 1/2
+      footerrightfirstlinkthree:
+        type: text
+        label: Three
+        width: 1/2
+      footerrightsecondlinkTwo:
+        type: text
+        label: Two
+        width: 1/2
+      footerrightfirstlinkfour:
+        type: text
+        label: Four
+        width: 1/2
+      footerrightsecondlinktwolink:
+        type: text
+        label: Two Link
+        width: 1/2
+      footerleftparagraph:
+        type: textarea
+        label: Footer Left Paragraph
+        width: 1/2
+      footerlefttitle:
+        type: text
+        label: Footer Left Title
+        width: 1/2
+      footerleftlink:
+        type: text
+        label: Email
+        width: 1/2
+      copyright:
+        type: text
+        label: Copyright
+        width: 1/2
+  
+  - width: 1/2
+    sections:
+      pages:
+        type: pages
+        # templates:
+        #   - about
+        #   - insights
+        #   - FAQS
+      # The `notes` section reuses the pages section defined in `/site/blueprints/sections/notes.yml`
+      albums: sections/albums
+
+      # The `pages` pages section shows other main pages of the site
+      # Using the `templates` option, we limit which types of pages are shown
+      # Using the `create` option, we limit the type of page that can be created when a new page is created
+      # Note that the `sandbox` page and the `error` page that also exist in the content folder but use different blueprints thus do not show up in the list
+      # Since the error page's blueprint is set to `read: false`, it wouldn't show up here even if you added the error blueprint to the templates list

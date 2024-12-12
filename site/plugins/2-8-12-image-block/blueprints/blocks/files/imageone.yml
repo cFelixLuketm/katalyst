@@ -1,0 +1,9 @@
+
+title: Image One
+
+accept:
+  extension: jpg, jpeg, png, webp
+
+fields:
+  alt:
+    type: text

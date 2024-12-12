@@ -1,0 +1,14 @@
+
+title: Insights
+
+icon: 📖
+
+columns:
+  - width: 3/3
+    sections:
+      pages:
+        label: Insights
+        layout: cards
+        image:
+          cover: true
+          ratio: 5/5

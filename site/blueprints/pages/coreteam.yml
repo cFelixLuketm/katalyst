@@ -1,0 +1,59 @@
+name: Core Team
+
+columns:
+  - width: 2/2
+    fields:
+      coreteammainparagraph:
+        type: textarea
+        label: Core Team Main Paragraph
+  
+  - width: 2/2
+    fields:
+      jordanimage:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        width: 1/4
+      jordanname:
+        label: Jordan Name
+        type: text
+        width: 1/4
+      maximage:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+        width: 1/4
+      maxname:
+        label: Max Name
+        type: text
+        width: 1/4
+      jordantitleone:
+        label: Jordan Title One
+        type: text
+        width: 1/4
+      jordantitletwo:
+        label: Jordan Title Two
+        type: text
+        width: 1/4
+      maxtitleone:
+        label: Max Title One
+        type: text
+        width: 1/4
+      maxtitletwo:
+        label: Max Title Two
+        type: text
+        width: 1/4
+      jordanparagraph:
+        label: Jordan Paragraph
+        type: textarea
+        width: 1/2
+      maxparagraph:
+        label: max Paragraph
+        type: textarea
+        width: 1/2

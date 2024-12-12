@@ -1,0 +1,9 @@
+
+title: Video Two
+
+accept:
+  extension: mp4
+
+fields:
+  alt:
+    type: text

@@ -1,0 +1,12 @@
+title: Cookies Policy
+
+icon: 📖
+
+columns:
+  - width: 3/3
+      label: Content
+      fields:
+        blocks:
+          type: blocks
+          fieldsets:
+            - largerparagraph

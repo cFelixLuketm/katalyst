@@ -1,0 +1,13 @@
+name: Email Prefooter
+
+icon: chat
+
+fields:
+  title:
+    type: textarea
+    placeholder: Title goes here
+    width: 2/2
+  email:
+    type: textarea
+    placeholder:  Email goes here
+    width: 2/2

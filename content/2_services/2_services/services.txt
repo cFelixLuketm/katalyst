@@ -1,0 +1,177 @@
+Title: Services
+
+----
+
+Servicesmainparagraph: 
+
+----
+
+Servicessecondparagraph: 
+
+----
+
+Titleone: Deliverables ↓
+
+----
+
+Titletwo: Design ↓
+
+----
+
+Titlethree: Roll-out ↓
+
+----
+
+Listoneone: Discovery & Research
+
+----
+
+Listtwoone: Brand Identity
+
+----
+
+Listthreeone: Brand Guidelines
+
+----
+
+Listonetwo: Competitor Analysis
+
+----
+
+Listtwotwo: Motion Identity & Animation
+
+----
+
+Listthreetwo: Website Build & Development
+
+----
+
+Listonethree: Brand Positioning
+
+----
+
+Listtwothree: Creative Direction
+
+----
+
+Listthreethree: Art Directed Brand Shoots
+
+----
+
+Listonefour: Brand Naming
+
+----
+
+Listtwofour: Logo Design
+
+----
+
+Listthreefour: Social Media Content
+
+----
+
+Listonefive: Creative Strategy
+
+----
+
+Listtwofive: Typeface Design
+
+----
+
+Listthreefive: Campaign Creation
+
+----
+
+Listonesix: 
+
+----
+
+Listtwosix: Illustration
+
+----
+
+Listthreesix: Packaging Design
+
+----
+
+Listoneseven: 
+
+----
+
+Listtwoseven: Photography & Art Direction
+
+----
+
+Listthreeseven: Brand Collateral
+
+----
+
+Listoneeight: 
+
+----
+
+Listtwoeight: Website & App Design
+
+----
+
+Listthreeeight: Copywriting & Creative Writing
+
+----
+
+Listonenine: 
+
+----
+
+Listtwonine: UX & UI
+
+----
+
+Listthreenine: 
+
+----
+
+Listoneten: 
+
+----
+
+Listtwoten: Signage & Wayfinding
+
+----
+
+Listthreeten: 
+
+----
+
+Listoneeleven: 
+
+----
+
+Listtwoeleven: Editorial &Print Design
+
+----
+
+Listthreeeleven: 
+
+----
+
+Listonetweleve: 
+
+----
+
+Listtwotweleve: 
+
+----
+
+Listthreetweleve: 
+
+----
+
+Footerrightfirsttitle: What sets us apart is our commitment to going beyond creating aesthetically pleasing brands. For us, branding is so much more than that.
+
+----
+
+Uuid: 6krBOQtXdh3bDNxk
+
+----
+
+Text: 

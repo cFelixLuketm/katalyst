@@ -1,0 +1,45 @@
+name: Title Paragraph
+
+icon: chat
+
+fields:
+  title:
+    type: textarea
+    placeholder: Title goes here
+    width: 2/2
+  titleone:
+    label: Paragraph One Title
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  paragraphone:
+    type: textarea
+    placeholder: Paragraph One goes here
+    width: 1/2
+  titletwo:
+    label: Paragraph Two Title
+    type: text
+    placeholder: Title Two goes here
+    width: 1/2
+  paragraphtwo:
+    type: textarea
+    placeholder: Paragraph Two goes here
+    width: 1/2
+  titlethree:
+    label: Paragraph Three Title
+    type: text
+    placeholder: Title Three goes here
+    width: 1/2
+  paragraphthree:
+    type: textarea
+    placeholder: Paragraph Three goes here
+    width: 1/2
+  titlefour:
+    label: Paragraph Four Title
+    type: text
+    placeholder: Title Four goes here
+    width: 1/2
+  paragraphfour:
+    type: textarea
+    placeholder: Paragraph Four goes here
+    width: 1/2

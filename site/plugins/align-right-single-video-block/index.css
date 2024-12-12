@@ -1,0 +1,9 @@
+.k-aspect-wrapper-align-right {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+video.single-video-panel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Parallax: parallaxItem
+
+----
+
+Uuid: fKmkpStAEztK10l2
+
+----
+
+Template: video

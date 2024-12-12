@@ -1,0 +1,21 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Photographer: 
+
+----
+
+Parallax: parallaxItem
+
+----
+
+Uuid: kAl0sqQe3FbMnPnp
+
+----
+
+Template: image

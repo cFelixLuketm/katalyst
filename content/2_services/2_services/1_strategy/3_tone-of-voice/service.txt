@@ -1,0 +1,13 @@
+Title: Tone of Voice
+
+----
+
+Serviceimage: - file://xo7sDFxre7xoH6de
+
+----
+
+Service: Tone of Voice
+
+----
+
+Uuid: aXychJmVgllmiIgB

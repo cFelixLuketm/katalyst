@@ -1,0 +1,18 @@
+name: FAQ
+
+icon: template
+
+fields:
+  title:
+    type: textarea
+    placeholder: Title goes here
+    width: 2/2
+  titleone:
+    label: Paragraph One Title
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  paragraphone:
+    type: textarea
+    placeholder: Paragraph One goes here
+    width: 1/2

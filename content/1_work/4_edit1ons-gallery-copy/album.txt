@@ -1,0 +1,149 @@
+Title: EDIT1ONS Gallery copy test
+
+----
+
+Coverone: - file://MIslg9JdAYnLuMOd
+
+----
+
+Video: 
+
+----
+
+Covertwo: - file://bkBxhR34rDJatM3I
+
+----
+
+Tags: homepage
+
+----
+
+Dataname: Brand Identity
+
+----
+
+Subheadline: Brand Identity & Packaging Design
+
+----
+
+Headline: Delaville Micro
+
+----
+
+Headlinetwo: Brasserie
+
+----
+
+Initaltitleone: Deliverables ↓
+
+----
+
+Initaltitleoneone: Brand Strategy
+
+----
+
+Initaltitleonetwo: Logo Design
+
+----
+
+Initaltitleonethree: Brand Identity Design
+
+----
+
+Initaltitleonefour: Branding Guidelines
+
+----
+
+Initaltitleonefive: Website Design
+
+----
+
+Initaltitleonesix: 
+
+----
+
+Initaltitletwo: Sector ↓
+
+----
+
+Initaltitletwoone: Arts & Culture
+
+----
+
+Initaltitletwotwo: 
+
+----
+
+Initaltitletwothree: 
+
+----
+
+Initaltitletwofour: 
+
+----
+
+Initaltitletwofive: 
+
+----
+
+Initaltitletwosix: 
+
+----
+
+Initaltitlethree: Project Date ↓
+
+----
+
+Initaltitlethreeone: 2021/22
+
+----
+
+Initaltitlethreetwo: 
+
+----
+
+Initaltitlethreethree: 
+
+----
+
+Initaltitlethreefour: 
+
+----
+
+Initaltitlethreefive: 
+
+----
+
+Initaltitlethreesix: 
+
+----
+
+Blocks: [{"content":{"image":["file://9UWI4VqYQdPAhehy"],"toptitleblack":"","bottomtitlegrey":""},"id":"be967296-ccaa-4b6c-bf01-e1be1d3a2c67","isHidden":false,"type":"singleimage"},{"content":{"title":"Transforming the perception of art galleries. Revealing a dynamic and adaptable brand identity that frames art.","titleone":"","paragraphone":"In the realm of art, EDIT1ONS dared to be different. They entrusted us to communicate their uniqueness and redefine the way people buy art online. After delving deep into their brand and art collection, we discovered the need for a flexible and versatile visual identity. Our solution? A timeless, adaptable brand identity that frames art while crafting a distinctive appearance of its own.","titletwo":"","paragraphtwo":"","titlethree":"","paragraphthree":"","titlefour":"","paragraphfour":""},"id":"63fafac3-f184-4978-a49e-fc5053ec6c49","isHidden":false,"type":"titleparagraph"},{"content":{"titleone":"Deliverables ↓","titletwo":"Website ↓","titlethree":"","listoneone":"Brand Strategy","listtwoone":"edit1ons.gallery","listthreeone":"","listonetwo":"Logo Design","listtwotwo":"","listthreetwo":"","listonethree":"Brand Identity Design","listtwothree":"","listthreethree":"","listonefour":"Branding Guidelines","listtwofour":"","listthreefour":"","listonefive":"Website Design","listtwofive":"","listthreefive":"","listonesix":"","listtwosix":"","listthreesix":"","listoneseven":"","listtwoseven":"","listthreeseven":"","listoneeight":"","listtwoeight":"","listthreeeight":"","listonenine":"","listtwonine":"","listthreenine":"","listoneten":"","listtwoten":"","listthreeten":""},"id":"4a60eb3c-862e-40eb-a740-261bbc6757aa","isHidden":false,"type":"linetwocolumn"},{"content":{"imageone":["file://CUzgWnhfOliuondB"],"imagetwo":["file://Fr8SHyTGalV8WPBA"],"toptitleblackleft":"","toptitleblackright":"","bottomtitlegreyleft":"","bottomtitlegreyright":""},"id":"703455fa-a487-45c6-b58d-6d074d9468af","isHidden":false,"type":"duoimage"},{"content":{"image":["file://f8sBHcf1zq2FO5U3"],"toptitleblack":"","bottomtitlegrey":""},"id":"8db97955-0b1b-4b6b-985e-ee71ff9156d8","isHidden":false,"type":"singleimage"},{"content":{"titleone":"Brief ↓","paragraphone":"EDIT1ONS, an innovative player in the art and culture scene, sought our expertise to launch their online art gallery. They craved individuality and needed us to convey it, setting them apart in a competitive field. \nTheir goal was to build trust, loyalty, and to revolutionise the way art is acquired - through limited editions of genuine artworks online.","titletwo":"Discovery - The Design Challenge ↓","paragraphtwo":"In immersive brand strategy workshops, we unraveled the essence of EDIT1ONS. We discovered a diverse array of artworks within their \ngallery, necessitating a visual identity that could gracefully accommodate varying styles and aesthetics. Flexibility and versatility were paramount, ensuring that EDIT1ONS would never be confined to a specific artistic stereotype. We envisioned an identity that celebrated the artwork, framing it like a masterpiece, while remaining distinct but never overshadowing the art. Our challenge was to strike the perfect balance between subtlety and uniqueness.","titlethree":"","paragraphthree":"","titlefour":"","paragraphfour":""},"id":"520b6546-5c9a-4c61-bb2f-c193ecbe1689","isHidden":false,"type":"paragraph"},{"content":{"image":["file://kAl0sqQe3FbMnPnp"],"toptitleblack":"","bottomtitlegrey":""},"id":"b35983da-e1fc-4231-bd9d-5108158761ce","isHidden":false,"type":"singleimage"},{"content":{"image":["file://XK5zyzfYrbIgcgD8"],"toptitleblack":"","bottomtitlegrey":""},"id":"19ce24a5-ecba-4130-a928-34b84059b850","isHidden":false,"type":"alignrightsingleimage"},{"content":{"titleone":"Our Approach ↓","paragraphone":"We were inspired by the concept of framing, the art of presenting and enhancing artwork in physical galleries, and translated it into the digital realm. The adaptable wordmark, delicately framing a corner of the featured art, became the foundation of our design system. This idea expanded into an entire treatment for all graphic elements, ensuring that every aspect of the visual identity was framed, contained, and presented in a unique individual manner.","titletwo":"The Outcome ↓","paragraphtwo":"We crafted a timeless and infinitely adaptable brand identity system that seamlessly complements any artwork housed in the gallery. This simple yet powerful solution allows the identity to shift, shape, and mould itself around the art, while remaining distinct and recognisable.","titlethree":"","paragraphthree":"","titlefour":"","paragraphfour":""},"id":"4ae502e8-b690-4060-a2cb-93577dd988ff","isHidden":false,"type":"paragraph"},{"content":{"image":["file://2BC9UpIMVgGRnL9A"],"toptitleblack":"","bottomtitlegrey":""},"id":"35ae07ff-2417-45ee-afa8-265ca31fb055","isHidden":false,"type":"singleimage"},{"content":{"imageone":["file://hnFDtRODcgDp0FvY"],"imagetwo":["file://uJnUoXXGA46PTd27"],"toptitleblackleft":"","toptitleblackright":"","bottomtitlegreyleft":"","bottomtitlegreyright":""},"id":"a7b6aa43-d7d0-4304-a677-423c5c3cd61f","isHidden":false,"type":"duoimage"},{"content":{"imageone":["file://Fr8SHyTGalV8WPBA"],"imagetwo":["file://QjSkslnujl1TO37W"],"toptitleblackleft":"","toptitleblackright":"","bottomtitlegreyleft":"","bottomtitlegreyright":""},"id":"cf2c6c30-cea6-4355-b891-f65467b75258","isHidden":false,"type":"duoimage"},{"content":{"titleone":"","paragraphone":"The brand identity predominantly features a minimalist black and white palette, thoughtfully selected to ensure the artwork takes centre stage online. However, in scenarios where artwork isn't the immediate focus, \na vibrant secondary palette comes into play, infusing a playful and \nvibrant tone.","titletwo":"","paragraphtwo":"","titlethree":"","paragraphthree":"","titlefour":"","paragraphfour":""},"id":"9f7b265d-992f-4bf3-be8d-6204f9bc8937","isHidden":false,"type":"paragraph"},{"content":{"image":["file://AxVrDdYMIyuKooKe"],"toptitleblack":"","bottomtitlegrey":""},"id":"ff3e56af-647f-479e-96e2-1763c40d52e7","isHidden":false,"type":"singleimage"},{"content":{"video":["file://bONV1GEINByWwff8"]},"id":"be2046fb-2749-4dee-b324-2837f82646f0","isHidden":false,"type":"singlevideo"},{"content":{"image":["file://svVNuISs5pmwp8hk"],"toptitleblack":"","bottomtitlegrey":""},"id":"c11734eb-b946-4279-86cc-329ba3fda370","isHidden":false,"type":"singleimage"},{"content":{"image":["file://e0SqRXNKvEcVjBRi"],"toptitleblack":"","bottomtitlegrey":""},"id":"fa22796a-c3c6-4eb4-a845-ede967c3e66b","isHidden":false,"type":"alignrightsingleimage"},{"content":{"titleone":"Project Credits & Collaborations ↓","titletwo":"","titlethree":"","listoneone":"Brand Strategy & Naming With Nmae of Studio","listtwoone":"","listthreeone":"","listonetwo":"Photography by Ollie White Smith","listtwotwo":"","listthreetwo":"","listonethree":"Illustration by Clara Jonas","listtwothree":"","listthreethree":"","listonefour":"","listtwofour":"","listthreefour":"","listonefive":"","listtwofive":"","listthreefive":"","listonesix":"","listtwosix":"","listthreesix":"","listoneseven":"","listtwoseven":"","listthreeseven":"","listoneeight":"","listtwoeight":"","listthreeeight":"","listonenine":"","listtwonine":"","listthreenine":"","listoneten":"","listtwoten":"","listthreeten":""},"id":"fa47cbe3-980e-4167-9586-dbddfab072ee","isHidden":false,"type":"threecolumn"},{"content":{"image":["file://YSe2B0obS6561iP3"],"toptitleblack":"","bottomtitlegrey":""},"id":"c8bf92f9-34db-4a75-9b42-024fc65b85fc","isHidden":false,"type":"singleimage"},{"content":{"title":"Has your brand got a story to tell?","email":"hello@designbykatalyst.com"},"id":"e143a177-d179-422d-a831-1f84a16f1967","isHidden":false,"type":"emailprefooter"}]
+
+----
+
+Display: display
+
+----
+
+Recentworkone: 2
+
+----
+
+Datanametwo: brandidentity
+
+----
+
+Files: - file://JWsmy8wl6bglAgb4
+
+----
+
+Text: <p>Hug them if you like. They might not appreciate it though.</p><p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+
+----
+
+Layout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://9UWI4VqYQdPAhehy"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"83d41048-074c-405f-931a-bf2f76d90bde","isHidden":false,"type":"image"}],"id":"d2d1d9c6-5d2b-4b09-a684-cb7f629e7941","width":"1/1"}],"id":"f436eafa-3735-4fe4-b01b-d520d681dd40"}]
+
+----
+
+Uuid: lR4OfmXSt9C8npz1

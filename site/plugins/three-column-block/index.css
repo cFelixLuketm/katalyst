@@ -1,0 +1,5 @@
+.k-aspect-wrapper-duo-colmn {
+  display: grid;
+  grid-template-columns: 1.15fr 2fr 1fr 1fr 1fr;
+  gap: 1rem;
+}

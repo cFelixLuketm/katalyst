@@ -1,0 +1,47 @@
+name: '8:12 x2 Image'
+
+icon: image
+
+fields:
+  imageone:
+    type: files
+    query: page.images.template('imageone')
+    uploads: imageone
+    multiple: false
+    width: 1/2
+    layout: cards
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+  imagetwo:
+    type: files
+    query: page.images.template('imageone')
+    uploads: imageone
+    multiple: false
+    width: 1/2
+    layout: cards
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+  toptitleblackleft:
+    label: Top Title Black left
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  toptitleblackright:
+    label: Top Title Black right
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  bottomtitlegreyleft:
+    label: Bottom Title Grey left
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  bottomtitlegreyright:
+    label: Bottom Title Grey right
+    type: text
+    placeholder: Title One goes here
+    width: 1/2

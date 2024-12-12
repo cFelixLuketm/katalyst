@@ -1,0 +1,10 @@
+name: Service Category
+
+columns:
+  
+  - width: 1/2
+      sections:
+        # Pages section: https://getkirby.com/docs/reference/panel/sections/pages
+        pages:
+          type: pages
+          template: service

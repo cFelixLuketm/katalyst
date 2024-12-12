@@ -1,0 +1,55 @@
+name: '8:12 x2 Videos'
+
+icon: video
+
+fields:
+  video:
+    type: files
+    query: page.images.template('video')
+    uploads:
+      template:
+      - video
+    multiple: false
+    width: 1/2
+    layout: cards
+    size: large
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+      width: 1/1
+  videotwo:
+    type: files
+    query: page.images.template('video')
+    uploads:
+      template:
+      - video
+    multiple: false
+    width: 1/2
+    layout: cards
+    size: large
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+      width: 1/1
+  toptitleblackleft:
+    label: Top Title Black left
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  toptitleblackright:
+    label: Top Title Black right
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  bottomtitlegreyleft:
+    label: Bottom Title Grey left
+    type: text
+    placeholder: Title One goes here
+    width: 1/2
+  bottomtitlegreyright:
+    label: Bottom Title Grey right
+    type: text
+    placeholder: Title One goes here
+    width: 1/2

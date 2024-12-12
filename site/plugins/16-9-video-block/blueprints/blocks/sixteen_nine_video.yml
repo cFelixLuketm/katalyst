@@ -1,0 +1,19 @@
+name: '16:9 Video'
+
+icon: video
+
+fields:
+  video:
+    type: files
+    query: page.images.template('video')
+    uploads:
+      template:
+      - video
+    multiple: false
+    layout: cards
+    size: large
+    image:
+      cover: true
+      back: white
+      ratio: 3/2
+      width: 1/1

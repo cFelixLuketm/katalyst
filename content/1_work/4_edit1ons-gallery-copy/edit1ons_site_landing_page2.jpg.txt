@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Parallax: parallaxItem
+
+----
+
+Uuid: yRiGX0bSqYk7ovHW
+
+----
+
+Template: image

@@ -1,0 +1,11 @@
+name:  Clients
+
+columns:
+  - width: 2/2
+    fields:
+      clientmainparagraph:
+        type: textarea
+        label: Clients Main Paragraph
+  
+  - width: 2/2
+    fields:

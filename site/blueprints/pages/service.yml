@@ -1,0 +1,18 @@
+title: Service
+
+columns:
+  - width: 1/2
+    fields:
+      serviceimage:
+        type: files
+        multiple: false
+        layout: cards
+        image:
+          cover: true
+          back: white
+
+  - width: 1/2
+    fields:
+      service:
+        type: text
+        label: Service Title

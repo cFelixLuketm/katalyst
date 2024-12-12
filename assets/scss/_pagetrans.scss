@@ -1,0 +1,18 @@
+
+
+  .loader {
+    position: fixed;
+    inset: 0;
+    z-index: var(--zIndex-top);
+    background-color: #000000;
+    border-top: 0.75px solid var(--base-white);;
+    transform: translateY(0%);
+    transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1) 0.2s;
+    will-change: transform;
+  }
+
+  .loader.active {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    transition: 1s;
+  }

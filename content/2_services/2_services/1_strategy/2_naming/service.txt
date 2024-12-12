@@ -1,0 +1,13 @@
+Title: Naming
+
+----
+
+Serviceimage: - file://U8OlAcD0HYHaUf7B
+
+----
+
+Service: Naming
+
+----
+
+Uuid: 0RFziJnKCjskJl4B

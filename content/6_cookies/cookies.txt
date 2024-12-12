@@ -1,0 +1,9 @@
+Title: Cookies
+
+----
+
+Blocks: [{"content":{"title":"test cookie","paragraphone":"Our legal team reviews and updates our generators on a regular basis. When cookie regulations change or new laws are enacted, we evaluate and update our generators to make sure you stay compliant. Your cookie policy can be automatically updated to reflect these changes","paragraphtwo":""},"id":"75b19f6c-1e2c-4776-b6ca-1d8307696193","isHidden":false,"type":"largerparagraph"}]
+
+----
+
+Uuid: Rzg3Gt0Wr9Juaord

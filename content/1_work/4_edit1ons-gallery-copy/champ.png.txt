@@ -1,0 +1,17 @@
+Caption: 
+
+----
+
+Parallax: parallaxItem
+
+----
+
+Sort: 10
+
+----
+
+Uuid: FlINnvi1rU3uqCoE
+
+----
+
+Template: image

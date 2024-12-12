@@ -1,0 +1,9 @@
+
+title: Image Two
+
+accept:
+  extension: jpg, jpeg, png, webp
+
+fields:
+  alt:
+    type: text

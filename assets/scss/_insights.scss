@@ -1,0 +1,123 @@
+
+article.note-excerpt {
+    border-bottom: 0px;
+}
+
+div.insight_wrapper {
+  cursor: pointer;
+}
+
+div.insight_wrapper:hover .read_more_wrapper {
+  opacity: 1;
+}
+
+.insight_grid {
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  display: grid;
+  grid-gap: var(--gutter);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 35vh;
+  padding-bottom: var(--quad-space);
+  margin-top: var(--padding);
+  // border-bottom: 0.75px solid var(--base-white);
+}
+
+figcaption.insight-date {
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  position: absolute;
+  z-index: 100;
+}
+
+div.insight-start {
+  margin-top: 0px;
+}
+
+span.insight-img {
+  height: 25vw;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+span.insight-img img {
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+div.insight_preview_text {
+    padding-top: var(--single-space);
+}
+
+div.read_more_wrapper {
+  opacity: 0;
+  pointer-events: none;
+  // padding-top: var(--double-space); 
+}
+
+p.insights_pretext {
+    padding-top: var(--double-space); 
+}
+
+div.insight_author {
+  padding-top: var(--tripple-space);
+  padding-bottom: var(--pent-space);;
+}
+
+// div.insight-start {
+//   border-bottom: 0.75px solid var(--base-white);
+// }
+
+
+@media screen and (max-width: 768px) {
+  .insight_grid {
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: grid;
+    grid-gap: var(--gutter);
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0vh;
+    margin-top: 30vh;
+    border-bottom: 0px solid var(--base-white);
+
+    // margin-top: var(--padding);
+    padding-bottom: var(--mobile-pent-space);
+  }
+
+  // figure.insight_img {
+  //   height: 50vw;
+  // }
+
+  span.insight-img {
+    height: 50vw;
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+
+  div.read_more_wrapper {
+    opacity: 1;
+  }
+
+  div.insight_author {
+    padding-top: 0;
+    padding-bottom: var(--mobile-pent-space);
+    margin-bottom: var(--mobile-quad-space);;
+    // margin-bottom: var(--quad-space);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+span.insight-title-mobile {
+    margin-bottom: 1vh;
+  }
+}
+  

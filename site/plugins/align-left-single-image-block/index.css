@@ -1,0 +1,9 @@
+.k-aspect-wrapper-align-left {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+}
+img.duo-image-panel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

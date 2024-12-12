@@ -1,0 +1,17 @@
+name: Approach
+
+columns:
+  - width: 2/2
+    fields:
+      title:
+        type: text
+        label: Approach Title
+  
+  - width: 2/2
+    fields:
+      number:
+        label: number
+        type: text
+      paragraph:
+        label: Paragraph
+        type: textarea
