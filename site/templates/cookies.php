@@ -1,16 +1,15 @@
-
 <?php snippet('header') ?>
 
 <style>
-    .title-paragraph-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: var(--padding);
-        padding-left: var(--padding);
-        padding-right: var(--padding);
-        padding-top: var(--quad-space);
-        padding-bottom: var(--pent-space);
-    }
+  .title-paragraph-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--padding);
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    padding-top: var(--quad-space);
+    padding-bottom: var(--pent-space);
+  }
 </style>
 
 <article class="article">
@@ -26,17 +25,19 @@
     <div class="line-wrapper" id="projectTopLine">
       <div class="top-line"></div>
     </div>
-    
+
     <section class="discover-section">
-        <?= $page->blocks()->toBlocks() ?>
+      <?= $page->blocks()->toBlocks() ?>
     </section>
 
     <section class="footer-block">
       <?php snippet('footer-content') ?>
     </section>
+
   </div>
+
 </article>
-    
+
 <?php snippet('footer') ?>
 
 <script>
@@ -50,7 +51,7 @@
 <script>
   const projectItems = document.querySelectorAll(".projects-nav-item");
   projectItems.forEach(projectItem => {
-    projectItem.addEventListener("click", function(){
+    projectItem.addEventListener("click", function() {
       loader.style.transform = "translateY(0%)";
 
       const header = document.querySelector(".header");
@@ -63,17 +64,17 @@
 
   var question = document.querySelectorAll('.discover-section');
 
-var first = document.querySelectorAll('.discover-section').item(0);;
-first.style.paddingTop= "35vh";
+  var first = document.querySelectorAll('.discover-section').item(0);;
+  first.style.paddingTop = "35vh";
 
-var last = question[question.length- 1];
-<?php if ($page->isMobile()): ?>  
-  last.style.paddingBottom = "var(--mobile-pent-space)";
-<?php else: ?>
-  last.style.paddingBottom = "var(--pent-space)";
-<?php endif ?>
+  var last = question[question.length - 1];
+  <?php if ($page->isMobile()): ?>
+    last.style.paddingBottom = "var(--mobile-pent-space)";
+  <?php else: ?>
+    last.style.paddingBottom = "var(--pent-space)";
+  <?php endif ?>
 
-var titles = document.querySelectorAll(".title-paragraph-wrapper");
-var lastTitle = titles[titles.length- 1];
-lastTitle.style.paddingBottom = "0px";
+  var titles = document.querySelectorAll(".title-paragraph-wrapper");
+  var lastTitle = titles[titles.length - 1];
+  lastTitle.style.paddingBottom = "0px";
 </script>

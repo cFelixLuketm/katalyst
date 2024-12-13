@@ -92,8 +92,16 @@ main.main {
   height: 100%;
   overflow-y: scroll;
   transform: translateY(0%);
+}
+
+.scroll__container > section {
   background-color: var(--base-black);
 }
+
+.scroll__container > *:nth-last-child(2) {
+  border-bottom: 0.75px solid var(--base-white);
+}
+
 
 section {
   position: relative;
@@ -111,6 +119,11 @@ section.footer-gap {
 section.footer-block {
   height: 93.6vh;
   overflow: hidden;
+  position: sticky;
+  transform: translateZ(0);
+  bottom: 0;
+  left: 0;
+  z-index: -100;
 }
 
 img#parallaxitem {
@@ -1102,7 +1115,7 @@ article.active {
 .grid {
   padding-left: var(--padding);
   padding-right: var(--padding);
-  margin-bottom: var(--quad-space);
+  padding-bottom: var(--quad-space);
   display: grid;
   grid-gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
@@ -2056,8 +2069,8 @@ ul.grid-recent-work {
   grid-gap: var(--gutter);
   grid-template-columns: 1fr 1fr;
   padding-top: var(--tripple-space);
-  margin-bottom: var(--tripple-space);
-  margin-bottom: var(--quad-space);
+  padding-bottom: var(--tripple-space);
+  padding-bottom: var(--quad-space);
 }
 
 div.recent-work-end-line {
@@ -2104,7 +2117,6 @@ div.insight_wrapper:hover .read_more_wrapper {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 35vh;
   padding-bottom: var(--quad-space);
-  margin-top: var(--padding);
 }
 
 figcaption.insight-date {

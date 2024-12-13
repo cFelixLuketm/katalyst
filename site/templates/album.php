@@ -1,4 +1,3 @@
-
 <?php snippet('header') ?>
 
 <article class="article">
@@ -14,6 +13,7 @@
                 display: block;
                 gap: var(--padding);
               }
+
               /* div.project__header {
                   padding-top: 25vh;
               } */
@@ -28,16 +28,16 @@
         <span class="right-site-paragraph">
           <span>
           </span>
-          <span>  
+          <span>
           </span>
-        </span> 
+        </span>
       </div>
     </section>
 
     <div class="line-wrapper" id="projectTopLine">
       <div class="top-line" id="projectLine"></div>
     </div>
-  
+
     <section class="project-inital">
       <div class="project__header__specs">
         <span>
@@ -76,10 +76,10 @@
             <p class="main-paragraph"><?= $page->initaltitlethreefive()->html() ?></p>
             <p class="main-paragraph"><?= $page->initaltitlethreesix()->html() ?></p>
           </span>
-        </span> 
+        </span>
       </div>
-    </section> 
-  
+    </section>
+
     <section class="project-grid">
       <div class="project__start">
         <?= $page->blocks()->toBlocks() ?>
@@ -94,10 +94,8 @@
       <?php snippet('footer-content') ?>
     </section>
 
-    <!-- <section class="footer-gap">
-      <div id="footerGap"></div>
-    </section> -->
   </div>
+
 </article>
 
 <!-- <div id="footerGap"></div> -->
@@ -122,10 +120,9 @@
 <?php snippet('footer') ?>
 
 <script>
-
-const blackpageItems = document.querySelectorAll(".blackpage-nav-item");
+  const blackpageItems = document.querySelectorAll(".blackpage-nav-item");
   blackpageItems.forEach(blackpageItem => {
-    blackpageItem.addEventListener("click", function(){
+    blackpageItem.addEventListener("click", function() {
       loader.style.transform = "translateY(0%)";
       const header = document.querySelector(".header");
       const html = document.documentElement;
