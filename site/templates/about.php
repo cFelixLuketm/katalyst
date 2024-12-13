@@ -59,7 +59,8 @@
         .email-prefooter-wrapper {
           display: grid;
           grid-template-columns: 1fr;
-          width: 80vw;
+          width: 100vw;
+          padding-right: 20vw;
           padding-top: var(--mobile-double-space);
           padding-bottom: var(--mobile-pent-space);
         }
