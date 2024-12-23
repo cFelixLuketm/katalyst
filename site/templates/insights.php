@@ -1,4 +1,3 @@
-
 <?php snippet('header') ?>
 
 <article class="article">
@@ -22,22 +21,21 @@
         <span class="right-side-paragraphs">
           <span class="project-initals">
             <p id="filterButton"
-               class="title_link insight-link active"
-               data-filter="all"
-            >
+              class="title_link insight-link active"
+              data-filter="all">
               All Insights [<?php echo ($page->children()->listed()->count()); ?>]
             </p>
 
-            <?php 
+            <?php
             $tags = $page->children()->listed()->pluck('dataname', ',', true);
             foreach ($tags as $tag):
-                $totalDataNames = $page->children()->listed()->filterBy('dataname', $tag)->count();
+              $totalDataNames = $page->children()->listed()->filterBy('dataname', $tag)->count();
             ?>
-                <p id="filterButton" 
-                   class="title_link insight-link <?= $tag ?>" 
-                   data-filter="<?= $tag ?>">
-                    <?= $tag ?>  [<?= $totalDataNames ?>]
-                </p>
+              <p id="filterButton"
+                class="title_link insight-link <?= $tag ?>"
+                data-filter="<?= $tag ?>">
+                <?= $tag ?> [<?= $totalDataNames ?>]
+              </p>
             <?php endforeach ?>
           </span>
           <span>
@@ -47,41 +45,38 @@
           <?php endif ?>
           <span>
           </span>
-        </span> 
+        </span>
       </div>
-    </section> 
-    
+    </section>
+
     <section>
       <ul class="insight_grid">
         <?php foreach ($page->children()->listed() as $insight): ?>
-        <li class="column"
-            data-name="<?= $insight->dataname() ?>"
-        >
-        <article class="note-excerpt">
-          <a id="titleLink"
-             onclick="javascript:setTimeout(()=>{window.location = '<?= $insight->url() ?>' },1000);"
-          >
-            <div class="insight_wrapper">
-              <!-- <figure class="insight_img"> -->
-                <span class="insight-img">
-                    <img src="<?= $insight->coverimage()->toFile()->url() ?>" 
-                         alt="<?= $insight->coverimage()->alt()->esc() ?>"
-                         id="<?= $insight->parallax() ?>"
-                    >
-                </span>
-              <!-- </figure> -->
-              <div class="insight_preview_text">
-                <p><?= $insight->datetext()->esc() ?></p>
-                <p class="insights__title"><?= $insight->title()->esc() ?> :</p>
-                <p class="insights__subtitle"><?= $insight->subtitle()->esc() ?></p>
-              </div>
-              <div class="insight_preview_text read_more_wrapper">
-                <p class="title_link">⮡ Read More</p>
-              </div>
-            </div>
-          </a>
-        </article>
-        </li>
+          <li class="column"
+            data-name="<?= $insight->dataname() ?>">
+            <article class="note-excerpt">
+              <a id="titleLink"
+                onclick="javascript:setTimeout(()=>{window.location = '<?= $insight->url() ?>' },1000);">
+                <div class="insight_wrapper">
+                  <!-- <figure class="insight_img"> -->
+                  <span class="insight-img">
+                    <img src="<?= $insight->coverimage()->toFile()->url() ?>"
+                      alt="<?= $insight->coverimage()->alt()->esc() ?>"
+                      id="<?= $insight->parallax() ?>">
+                  </span>
+                  <!-- </figure> -->
+                  <div class="insight_preview_text">
+                    <p><?= $insight->datetext()->esc() ?></p>
+                    <p class="insights__title"><?= $insight->title()->esc() ?> :</p>
+                    <p class="insights__subtitle"><?= $insight->subtitle()->esc() ?></p>
+                  </div>
+                  <div class="insight_preview_text read_more_wrapper">
+                    <p class="title_link">⮡ Read More</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </li>
         <?php endforeach ?>
       </ul>
     </section>
@@ -89,7 +84,9 @@
     <section class="footer-block">
       <?php snippet('footer-content') ?>
     </section>
+
   </div>
+
 </article>
 
 <?php snippet('footer') ?>
@@ -105,9 +102,9 @@
 <script>
   const projectItems = document.querySelectorAll(".projects-nav-item");
   projectItems.forEach(projectItem => {
-    projectItem.addEventListener("click", function(){
+    projectItem.addEventListener("click", function() {
       loader.style.transform = "translateY(0%)";
-  
+
       const header = document.querySelector(".header");
       const html = document.documentElement;
       const body = document.querySelector("body");

@@ -1,4 +1,3 @@
-
 <?php snippet('header') ?>
 
 <article class="article">
@@ -8,7 +7,7 @@
         <div></div>
         <div class="project__header insight-header">
           <span class="insight-title-mobile">
-              <h2><?= $page->title()->esc() ?>:</h2>
+            <h2><?= $page->title()->esc() ?>:</h2>
           </span>
           <h2 class="insight__subtitle"><?= $page->subtitle()->esc() ?></h2>
         </div>
@@ -34,15 +33,15 @@
           <?php endif ?>
           <span>
             <span>
-            <p>Written by <?= $page->author()->esc() ?></p>
-            <p class="main-paragraph"><?= $page->authortitle()->esc() ?></p>
+              <p>Written by <?= $page->author()->esc() ?></p>
+              <p class="main-paragraph"><?= $page->authortitle()->esc() ?></p>
             </span>
             <?php if ($page->isMobile()): ?>
             <?php else: ?>
               <span></span>
               <span></span>
             <?php endif ?>
-          </span> 
+          </span>
         </div>
       </div>
     </section>
@@ -50,11 +49,12 @@
     <section class="footer-block">
       <?php snippet('footer-content') ?>
     </section>
+
   </div>
+
 </article>
 
 <style>
-
   p.project-heading {
     color: var(--base-white);
   }
@@ -125,12 +125,12 @@
     }
 
     h2.insight__subtitle {
-        font-size: var(--subtitle-copy-size-mobile);
-        line-height: var(--subtitle-copy-lineheight-mobile);
-        font-weight: normal;
-        color: var(--black-temp-text);
-        padding-bottom: 1vh;
-        margin-top: -1vh;
+      font-size: var(--subtitle-copy-size-mobile);
+      line-height: var(--subtitle-copy-lineheight-mobile);
+      font-weight: normal;
+      color: var(--black-temp-text);
+      padding-bottom: 1vh;
+      margin-top: -1vh;
     }
   }
 </style>
@@ -148,7 +148,7 @@
 <script>
   const projectItems = document.querySelectorAll(".projects-nav-item");
   projectItems.forEach(projectItem => {
-    projectItem.addEventListener("click", function(){
+    projectItem.addEventListener("click", function() {
       loader.style.transform = "translateY(0%)";
 
       const header = document.querySelector(".header");
